@@ -75,12 +75,41 @@ nav li {
 }
 
 .banner-discription {
-    font-size: 14px;
+    font-size: 18px;
     color: #757575;
     margin-bottom: 15px;
+    font-family: 'Open Sans';
 }
 
 .banner img {
     height: 687px;
     width: 584px;
+}
+
+/* main section */
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* about section styles */
+
+.about-section {
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 5px;
+    padding: 130px 150px;
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-discription {
+    color: #757575;
+    font-family: 'Open Sans';
+    font-size: 18px;
+    margin-bottom: 30px;
 }
