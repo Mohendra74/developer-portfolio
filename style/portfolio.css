@@ -223,3 +223,46 @@ main {
     font-size: 13px;
     padding: 7px 0px;
 }
+
+.resume-button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+/* contact section styles */
+
+.contact {
+    display: flex;
+    gap: 50px;
+    background-color: #FFF8F3;
+    padding: 130px 150px;
+    margin-top: 80px;
+}
+
+.contact .section-title {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.contact-discription {
+    color: #474747;
+    font-size: 16px;
+    padding-right: 70px;
+    margin-bottom: 20px;
+}
+
+.contact input[type="text"],input[type="email"],textarea {
+    margin-bottom: 15px;
+    border: 0;
+    width: 80%;
+    padding: 14px 20px;
+}
+
+input {
+    height: 30px;
+}
+
+.contact a {
+    text-decoration: none;
+}
+
