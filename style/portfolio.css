@@ -180,3 +180,46 @@ main {
     border-radius: 5px;
     padding: 20px;
 }
+
+/* resume styles */
+.resume {
+    margin: 50px 100px 0px 100px;
+}
+
+.resume-section-title {
+    font-size: 28px;
+    color: #181818;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 23px;
+}
+
+.resume-content {
+    display: flex;
+    gap: 20px;
+    padding: 25px;
+}
+
+.resume-title {
+    color: #474747;
+    font-size: 22px;
+    padding: 15px 0px;
+}
+
+.resume-items-title {
+    color: #474747;
+    font-size: 18px;
+    padding: 7px 0px;
+}
+
+.resume-items-subtitle {
+    color: #757575;
+    font-size: 13px;
+    padding: 7px 0px;
+}
+
+.resume-discription {
+    color: #757575;
+    font-size: 13px;
+    padding: 7px 0px;
+}
