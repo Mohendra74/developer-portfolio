@@ -28,6 +28,7 @@ nav li {
 .nav-title {
      font-weight: 800;
      font-size: 45px;
+     margin-left: 50px;
 }
 
 .text-primary {
@@ -39,7 +40,8 @@ nav li {
 .banner {
     display: flex;
     align-items: center;
-    margin: 0px 30px 0px 150px;
+    margin: 0px 5px 0px 140px;
+    
 }
 .btn-primary {
     color: white;
@@ -64,18 +66,18 @@ nav li {
     font-size: 40px;
     font-weight: 700;
     color: #474747;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .banner-sub-title {
     font-size: 30px;
     font-weight: 600; 
     color: #181818;
-    margin-bottom: 10px;
+    margin-bottom: 7px;
 }
 
 .banner-discription {
-    font-size: 18px;
+    font-size: 14px;
     color: #757575;
     margin-bottom: 15px;
     font-family: 'Open Sans';
@@ -84,6 +86,7 @@ nav li {
 .banner img {
     height: 687px;
     width: 584px;
+
 }
 
 /* main section */
@@ -96,10 +99,11 @@ main {
 /* about section styles */
 
 .about-section {
-    margin-top: 130px;
+    margin: 110px 110px 0px 110px;
+    color: #181818;
     background: #FFF8F3;
     border-radius: 5px;
-    padding: 130px 150px;
+    padding: 100px;
 }
 
 .section-title {
@@ -112,4 +116,21 @@ main {
     font-family: 'Open Sans';
     font-size: 18px;
     margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.info-title {
+    font-size: 14px;
+    color: #757575; 
+}
+
+.info-discription {
+    font-size: 15px;
+    color: #474747;
 }
